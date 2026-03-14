@@ -1,0 +1,166 @@
+/* ================================
+   Cherry Blossom Spring Festival
+   styles.css
+   ================================ */
+
+
+/* --- Page Background & Default Text --- */
+body {
+    background-color: #fff0f5;
+    font-family: Georgia, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* --- Headings --- */
+h1 {
+    color: #b5006e;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+h2 {
+    color: #c2185b;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #880e4f;
+    font-size: 20px;
+    padding-left: 40px;
+    margin-bottom: 5px;
+}
+
+
+/* --- Paragraphs --- */
+p {
+    font-size: 16px;
+    color: #555555;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/* --- Buttons --- */
+button {
+    background-color: #b5006e;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #880e4f;
+}
+
+
+/* --- Links --- */
+a {
+    color: #b5006e;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #880e4f;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c2185b;
+}
+
+a:active {
+    color: #ff80ab;
+}
+
+
+/* --- Header Section ---
+   This is the top part of the page with
+   the title, subtitle, and buttons.
+--- */
+.header {
+    background-color: #fce4ec;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f48fb1;
+}
+
+#header-left {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+#header-right {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+}
+
+#header-img {
+    width: 90%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+
+.header-button {
+    background-color: #b5006e;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 18px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: #880e4f;
+}
+
+
+/* --- Logo / Special Image --- */
+#logo {
+    padding: 0px 150px 150px 0px;
+}
+
+
+/* --- Schedule Images --- */
+.schedule-img {
+    display: block;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+
+/* --- Links Section Cards --- */
+a.block {
+    display: block;
+    background-color: #fce4ec;
+    border: 2px solid #f48fb1;
+    border-radius: 10px;
+    margin: 10px 40px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #880e4f;
+}
+
+a.block:hover {
+    background-color: #f8bbd0;
+}
